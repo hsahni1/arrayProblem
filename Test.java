@@ -21,7 +21,7 @@ public class Test {
 
 		int power = array.size()-1;
 		for(int i = array.size()-1; i>=0 ; i--){
-			if(power >0){
+			if(power >-1){
 				number = number +  array.get(i) * (int)Math.pow(10, power);
 				power --;
 			}
